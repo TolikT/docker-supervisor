@@ -1,0 +1,5 @@
+export CATALINA_PID=/opt/tomcat/temp/tomcat.pid
+export CATALINA_HOME=/opt/tomcat
+export CATALINA_BASE=/opt/tomcat
+export 'CATALINA_OPTS=-Xms512M -Xmx1024M -server -XX:+UseParallelGC'
+export 'JAVA_OPTS=-Djava.awt.headless=true -Djava.security.egd=file:/dev/./urandom'
